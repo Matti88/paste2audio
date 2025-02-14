@@ -9,4 +9,6 @@ version = "0.1.0"
 dependencies = []
 
 [project.scripts]
-mycmd = "paste2audio.main:main"
+paste2audio = "paste2audio.main:main"
+
+
