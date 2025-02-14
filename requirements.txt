@@ -1,0 +1,6 @@
+pyperclip
+ffmpeg-python
+numpy
+gtts
+PyQt6
+soundfile
