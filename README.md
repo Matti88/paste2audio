@@ -20,24 +20,23 @@ Paste2Audio is a GUI application that allows you to quickly convert text from yo
     cd paste2audio
     ```
 
-2. Install the required dependencies:
+2. You can install all the packages to enable launching the app via the command line:
     ```sh
-    pip install -r requirements.txt
+    pip install .
     ```
-
-3. Ensure you have the necessary assets in the `data/assets` directory:
-    - `VOX.icns`: Application icon
-    - `spinner.gif`: Loading spinner
-    - `checkmark.png`: Checkmark icon
 
 ## Usage
 
-1. Run the application:
+1.  Run the application:
+
     ```sh
-    python paste2audio/main.py
+    paste2audio
     ```
 
 2. The GUI will open. You can now paste text from your clipboard and convert it to speech.
+    
+    ![paste2audio](data/screenshot_1.png)
+
 
 ## How to Use
 
@@ -57,7 +56,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 
-- [Kokoro](https://kokoro.ai) for their amazing text-to-speech model.
+- [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) for their amazing text-to-speech model.
 - [PyQt6](https://www.riverbankcomputing.com/software/pyqt/intro) for the GUI framework.
 - [FFmpeg](https://ffmpeg.org) for audio processing.
 
