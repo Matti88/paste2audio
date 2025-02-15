@@ -394,6 +394,10 @@ class AudioPlayerApp(QWidget):
 
 def main():
     app = QApplication(sys.argv)
+    app.setApplicationName("Paste2Audio")
+    app.setApplicationVersion("1.0.0")
+    app.setOrganizationName("YourOrganizationName")
+    app.setOrganizationDomain("yourdomain.com")
     window = AudioPlayerApp()
     window.show()
     sys.exit(app.exec())
