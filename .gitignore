@@ -2,3 +2,4 @@ build*
 dist*
 paste2audio.egg-info*
 .DS*
+test.py
