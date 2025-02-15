@@ -112,7 +112,7 @@ class AudioPlayerApp(QWidget):
         super().__init__()
         os.makedirs("data/temp", exist_ok=True)
         
-        self.setWindowTitle("Text-to-Speech Converter")
+        self.setWindowTitle("paste2audio")
         self.setGeometry(100, 100, 400, 300)
         
         app_icon = QIcon("data/assets/VOX.icns")

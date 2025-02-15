@@ -22,6 +22,11 @@ Paste2Audio is a GUI application that allows you to quickly convert text from yo
 
 2. You can install all the packages to enable launching the app via the command line:
     ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Finally install the app:
+    ```sh
     pip install .
     ```
 
